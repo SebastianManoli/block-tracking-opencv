@@ -10,32 +10,32 @@ This project processes video files to detect and track human poses using two pow
 
 The system outputs annotated videos with bounding boxes around detected objects and skeletal pose overlays on human figures.
 
-## 📋 Requirements
+## Requirements
 
 ### Dependencies
 - `opencv-contrib-python`
 - `mediapipe`
 - `YOLO` from `ultralytics`
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/SebastianManoli/block-tracking-opencv.git
    cd block-tracking-opencv
    ```
-```
-BLOB_TRACK/
-├── blob_track.ipynb          # Main Jupyter notebook
-└── README.md                # This file
-```
+   ```
+   BLOB_TRACK/
+   ├── blob_track.ipynb          # Main Jupyter notebook
+   └── README.md                # This file
+   ```
 
 1. **Install dependencies:**
    ```bash
    pip install opencv-contrib-python mediapipe ultralytics --upgrade
    ```
 
-## 🎮 Usage
+## Usage
 
 ### Basic Usage
 
@@ -53,12 +53,12 @@ BLOB_TRACK/
 3. **Run all cells** to process the video.
 
 
-## 📊 Output
+## Output
 
 Screenshot from output.mp4
 ![alt text](image.png)
 
-## 🔬 Technical Details
+## Technical Details
 
 ### MediaPipe Pose Model
 - **33 landmark points** covering full body
